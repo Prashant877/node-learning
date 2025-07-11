@@ -6,8 +6,14 @@ function addOne(num) {
   console.log(num + 1);
 }
 
-exports.name =
 module.exports = {
   greet,
   addOne,
 };
+
+/*
+{
+    greet: greet,
+    addOne: addOne
+}
+/ */
